@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-ternary_tree-v0_1_14.flake = false;
+  inputs.src-ternary_tree-v0_1_14.ref   = "refs/tags/v0.1.14";
   inputs.src-ternary_tree-v0_1_14.owner = "calcit-lang";
-  inputs.src-ternary_tree-v0_1_14.ref   = "v0_1_14";
   inputs.src-ternary_tree-v0_1_14.repo  = "ternary-tree";
   inputs.src-ternary_tree-v0_1_14.type  = "github";
   
