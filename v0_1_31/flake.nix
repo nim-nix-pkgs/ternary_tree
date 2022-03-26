@@ -11,6 +11,7 @@
   inputs.src-ternary_tree-v0_1_31.ref   = "refs/tags/v0.1.31";
   inputs.src-ternary_tree-v0_1_31.owner = "calcit-lang";
   inputs.src-ternary_tree-v0_1_31.repo  = "ternary-tree";
+  inputs.src-ternary_tree-v0_1_31.dir   = "";
   inputs.src-ternary_tree-v0_1_31.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
